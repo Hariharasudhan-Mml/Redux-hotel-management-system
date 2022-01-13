@@ -1,0 +1,41 @@
+.booking{
+text-align: center;
+}
+.booking > h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: xx-large;
+margin: 10px;
+}
+.booking > h4{
+    font-family:  Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.46);
+}
+.form{
+    width:fit-content;
+    margin: 10px auto;
+}
+.form > input {
+    display: block;
+    padding: 10px 30px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px  solid cadetblue;
+}
+.form  > button {
+    padding: 5px 15px;
+    outline: none;
+    background: rgb(42, 42, 163);
+    border: none;
+    color:blanchedalmond;
+    margin-top: 30px;
+    border-radius: 3px;
+cursor: pointer;
+}
+.form > button:hover{
+    background: rgba(53, 53, 255, 0.981);
+    color:black;
+}

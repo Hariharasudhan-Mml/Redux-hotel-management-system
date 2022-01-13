@@ -1,0 +1,38 @@
+.user{
+    padding: 15px;
+    width: max-content;
+    background-color: aquamarine;
+    border-radius: 0 0 2px 3px ;
+    margin: 20px auto;
+}
+.user > h1{
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.user > h1 ~ p {
+    margin: 10px;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.user > button {
+    padding: 6px 10px;
+    border-radius: 3px;
+    outline: none;
+    cursor:pointer;
+    font-size: 14px;
+    background-color: transparent;
+font-size: medium;
+    margin-right: 20px;
+}
+
+.edit{
+}
+.edit:hover{
+    background-color:rgb(71, 71, 236) ;
+    color: whitesmoke;
+}
+.delete:hover{
+    color: whitesmoke;
+
+    background-color: rgb(233, 66, 66);
+}

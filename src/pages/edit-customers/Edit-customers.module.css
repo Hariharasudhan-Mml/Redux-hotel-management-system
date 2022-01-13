@@ -1,0 +1,25 @@
+.edit{
+    width: fit-content;
+    margin: 20px auto;
+}
+.edit > input {
+    display: block;
+    padding: 10px 30px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px  solid cadetblue;
+}
+.edit > button {
+    padding: 5px 10px;
+    background-color:transparent;
+    cursor: pointer;
+    border: 1px solid  rgb(9, 242, 9);
+font-size: medium;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border-radius: 3px;
+}
+.edit > button:hover{
+    background-color: rgb(84, 208, 84);
+    color: whitesmoke;
+}

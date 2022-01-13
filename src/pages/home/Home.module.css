@@ -1,0 +1,156 @@
+
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .offers{
+    flex: 0.3;
+    padding: 10px;
+    background-color: aquamarine;
+    height: max-content;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+  }
+  .offers > h3{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    
+  }
+  .offers > p {
+    font-weight: 900;
+    margin: 5px;
+    text-decoration: underline;
+    margin-bottom: 10px ;
+  }
+  .offers >span{
+    background-color: lawngreen;
+    border-radius:7px;
+    margin: 7px;
+    padding: 3px;
+    word-break: keep-all;
+  }
+  .features{
+    flex: 0.4;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 50%;
+   border: 2px dotted orangered;
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  .features > .big__title {
+    background-color: peachpuff;
+   padding: 10px;
+   border-radius: 50%;
+     position:absolute;
+     top: 45%;
+     left: 40%;
+   }
+   
+   
+   .feature__1 {
+     background-color: peachpuff;
+    padding: 10px;
+    border-radius: 50%;
+      position:absolute;
+      left: 35%;
+      top: 3%;
+    }
+    
+    
+   .feature__2 {
+     background-color: peachpuff;
+    padding: 10px;
+    border-radius: 50%;
+      position:absolute;
+      right: 5%;
+      top: 30%;
+    }
+    
+    
+   .feature__3 {
+     background-color: peachpuff;
+    padding: 10px;
+    border-radius: 50%;
+      position:absolute;
+      right: 5%;
+      top: 65%;
+    }
+    
+    
+   .feature__4{
+     background-color: peachpuff;
+    padding: 10px;
+    border-radius: 50%;
+      position:absolute;
+      left: 5%;
+      top: 65%;
+    }
+    
+   .feature__5{
+     background-color: peachpuff;
+    padding: 10px;
+    border-radius: 50%;
+      position:absolute;
+      left: 35%;
+      bottom: 3%;
+    }
+    
+   .feature__6{
+     background-color: peachpuff;
+    padding: 10px;
+    border-radius: 50%;
+      position:absolute;
+      left: 5%;
+      top: 30%;
+    }
+    
+   .feature__7{
+     background-color: peachpuff;
+    padding: 10px;
+    border-radius: 50%;
+      position:absolute;
+      left: 5%;
+      top: 70%;
+    }
+    
+    
+    
+  .gallery{
+    flex: 0.3;
+    padding: 10px;
+    background-color: aquamarine;
+    height: max-content;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    text-align: center;
+  
+  }
+  .gallery  > img{
+    width:70%;
+   margin:10px auto;
+  }
+  .gallery > a{
+  display: block;
+  margin:10px ;
+  }
+  .booking__link {
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+  }
+  .booking__link > a{
+    background-color: violet;
+    text-decoration: none;
+    padding:5px 10px ;
+    margin-bottom: 15px;
+  }
+  .booking__link > a:hover{
+    color: red;
+  }
